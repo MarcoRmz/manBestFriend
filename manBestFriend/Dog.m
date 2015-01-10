@@ -14,4 +14,10 @@
     NSLog(@"Woof Woof!");
 }
 
+-(void)barkANumberOfTimes:(int)number {
+    for (int bark = 1; bark <= number; bark++) {
+        NSLog(@"Woof Woof!");
+    }
+}
+
 @end

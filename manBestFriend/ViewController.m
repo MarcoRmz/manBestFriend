@@ -25,6 +25,7 @@
     
     NSLog(@"My dog's name is: %@ it's age is %i and he is a %@", wisky.name, wisky.age, wisky.breed);
     [wisky bark];
+    [wisky barkANumberOfTimes:3];
 }
 
 - (void)didReceiveMemoryWarning {
