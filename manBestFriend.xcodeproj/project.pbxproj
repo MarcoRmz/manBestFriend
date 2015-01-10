@@ -14,6 +14,7 @@
 		A9D10EBA1A60B1A0000AA687 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D10EB91A60B1A0000AA687 /* Images.xcassets */; };
 		A9D10EBD1A60B1A0000AA687 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9D10EBB1A60B1A0000AA687 /* LaunchScreen.xib */; };
 		A9D10EC91A60B1A1000AA687 /* manBestFriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D10EC81A60B1A1000AA687 /* manBestFriendTests.m */; };
+		A9D10ED41A60B274000AA687 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D10ED31A60B274000AA687 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A9D10EC21A60B1A1000AA687 /* manBestFriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = manBestFriendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D10EC71A60B1A1000AA687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9D10EC81A60B1A1000AA687 /* manBestFriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = manBestFriendTests.m; sourceTree = "<group>"; };
+		A9D10ED21A60B274000AA687 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		A9D10ED31A60B274000AA687 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				A9D10EB31A60B1A0000AA687 /* ViewController.h */,
 				A9D10EB41A60B1A0000AA687 /* ViewController.m */,
 				A9D10EB61A60B1A0000AA687 /* Main.storyboard */,
+				A9D10ED21A60B274000AA687 /* Dog.h */,
+				A9D10ED31A60B274000AA687 /* Dog.m */,
 				A9D10EB91A60B1A0000AA687 /* Images.xcassets */,
 				A9D10EBB1A60B1A0000AA687 /* LaunchScreen.xib */,
 				A9D10EAC1A60B1A0000AA687 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				A9D10EB51A60B1A0000AA687 /* ViewController.m in Sources */,
 				A9D10EB21A60B1A0000AA687 /* AppDelegate.m in Sources */,
+				A9D10ED41A60B274000AA687 /* Dog.m in Sources */,
 				A9D10EAF1A60B1A0000AA687 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
