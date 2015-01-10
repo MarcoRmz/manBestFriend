@@ -20,6 +20,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     Dog *wisky = [[Dog alloc] init];
     wisky.name = @"Wisky";
+    wisky.breed = @"Jack Russell";
+    wisky.age = 4;
 }
 
 - (void)didReceiveMemoryWarning {
