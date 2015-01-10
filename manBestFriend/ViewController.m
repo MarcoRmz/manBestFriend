@@ -23,8 +23,7 @@
     wisky.breed = @"Jack Russell";
     wisky.age = 4;
     
-    [wisky barkANumberOfTimes:3 loudly:true];
-    [wisky barkANumberOfTimes:2 loudly:false];
+    int dogYears = [wisky dogYears:wisky.age];
 }
 
 - (void)didReceiveMemoryWarning {

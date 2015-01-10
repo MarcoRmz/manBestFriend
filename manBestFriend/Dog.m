@@ -37,4 +37,8 @@
     }
 }
 
+-(int)dogYears:(int)age {
+    return age * 7;
+}
+
 @end
