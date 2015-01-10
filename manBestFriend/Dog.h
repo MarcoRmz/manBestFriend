@@ -14,4 +14,6 @@
 @property (nonatomic, strong) NSString *breed;
 @property (nonatomic, strong) NSString *name;
 
+-(void)bark;
+
 @end
