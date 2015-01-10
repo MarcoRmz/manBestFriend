@@ -16,7 +16,7 @@
 
 -(void)barkANumberOfTimes:(int)number {
     for (int bark = 1; bark <= number; bark++) {
-        NSLog(@"Woof Woof!");
+        [self bark];
     }
 }
 
