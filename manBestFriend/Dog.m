@@ -10,7 +10,7 @@
 
 @implementation Dog
 
--(void)bark{
+-(void)bark {
     NSLog(@"Woof Woof!");
 }
 
@@ -20,8 +20,21 @@
     }
 }
 
--(void)changeBreedToWerewolf{
+-(void)changeBreedToWerewolf {
     self.breed = @"Werewolf";
+}
+
+-(void)barkANumberOfTimes:(int)number loudly:(BOOL)isLoud{
+    if (!isLoud) {
+        for (int bark = 1; bark <= number; bark++) {
+            NSLog(@"Yip yip");
+        }
+    }
+    else {
+        for (int bark = 1; bark <= number; bark++) {
+            NSLog(@"Ruff Ruff!");
+        }
+    }
 }
 
 @end

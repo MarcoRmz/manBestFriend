@@ -23,12 +23,8 @@
     wisky.breed = @"Jack Russell";
     wisky.age = 4;
     
-    NSLog(@"My dog's name is: %@ it's age is %i and he is a %@", wisky.name, wisky.age, wisky.breed);
-    [wisky bark];
-    [wisky barkANumberOfTimes:3];
-    [wisky changeBreedToWerewolf];
-    NSLog(@"Breed: %@", wisky.breed);
-    [self printHelloWorld];
+    [wisky barkANumberOfTimes:3 loudly:true];
+    [wisky barkANumberOfTimes:2 loudly:false];
 }
 
 - (void)didReceiveMemoryWarning {
