@@ -60,5 +60,21 @@
 }
 
 - (IBAction)newDogBarButtonItemPressed:(UIBarButtonItem *)sender {
+    int numberOfDogs = [self.myDogs count];
+    int randomIndex = arc4random() % numberOfDogs;
+    Dog *randomDog = [self.myDogs objectAtIndex:randomIndex];
+    
+//    self.myImageView.image = randomDog.image;
+//    self.breadLabel.text = randomDog.breed;
+//    self.nameLabel.text = randomDog.name;
+    
+    [UIView transitionWithView:self.view duration:2 options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
+        self.myImageView.image = randomDog.image;
+        self.breadLabel.text = randomDog.breed;
+        self.nameLabel.text = randomDog.name;
+    } completion:^(BOOL finished) {
+        
+    }];
+    sender.title = @"And Another";
 }
 @end
