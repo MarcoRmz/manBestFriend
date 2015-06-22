@@ -10,5 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIImageView *myImageView;
+@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
+@property (strong, nonatomic) IBOutlet UILabel *breadLabel;
+@property (nonatomic, strong) NSMutableArray *myDogs;
+
 @end
 
