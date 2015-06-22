@@ -59,4 +59,6 @@
     NSLog(@"Hello Wrold");
 }
 
+- (IBAction)newDogBarButtonItemPressed:(UIBarButtonItem *)sender {
+}
 @end

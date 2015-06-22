@@ -15,5 +15,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *breadLabel;
 @property (nonatomic, strong) NSMutableArray *myDogs;
 
-@end
+- (IBAction)newDogBarButtonItemPressed:(UIBarButtonItem *)sender;
 
+@end
