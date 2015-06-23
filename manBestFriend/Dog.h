@@ -13,7 +13,7 @@
 @property (nonatomic) int age;
 @property (nonatomic, strong) NSString *breed;
 @property (nonatomic, strong) NSString *name;
-@property (nonatomic) UIImage imageNamed;
+@property (nonatomic, strong) NSString *image;
 
 -(void)bark;
 -(void)barkANumberOfTimes:(int)number;

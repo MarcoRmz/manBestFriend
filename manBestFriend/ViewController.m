@@ -18,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.currentIndex = 0;
+    
     Dog *wisky = [[Dog alloc] init];
     wisky.name = @"Wisky";
     wisky.breed = @"Jack Russell";
@@ -64,11 +67,19 @@
     int randomIndex = arc4random() % numberOfDogs;
     Dog *randomDog = [self.myDogs objectAtIndex:randomIndex];
     
+    if (self.currentIndex == randomIndex && self.currentIndex == 0) {
+        randomIndex++;
+    } else if (self.currentIndex == randomIndex) {
+        randomIndex--;
+    }
+    
+    self.currentIndex = randomIndex;
+    
 //    self.myImageView.image = randomDog.image;
 //    self.breadLabel.text = randomDog.breed;
 //    self.nameLabel.text = randomDog.name;
     
-    [UIView transitionWithView:self.view duration:2 options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
+    [UIView transitionWithView:self.view duration:1 options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
         self.myImageView.image = randomDog.image;
         self.breadLabel.text = randomDog.breed;
         self.nameLabel.text = randomDog.name;
