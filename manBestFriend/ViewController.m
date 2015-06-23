@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Dog.h"
+#import "Puppy.h"
 
 @interface ViewController ()
 
@@ -51,6 +52,14 @@
     [self.myDogs addObject:secondDog];
     [self.myDogs addObject:thirdDog];
     [self.myDogs addObject:fourthDog];
+    
+    Puppy *littlePuppy = [[Puppy alloc] init];
+    [littlePuppy bark];
+    littlePuppy.name = @"Boo";
+    littlePuppy.breed = @"Chihuaha";
+    littlePuppy.image = [UIImage imageNamed:@"Street.jpg"];
+    
+    [self.myDogs addObject:littlePuppy];
 }
 
 - (void)didReceiveMemoryWarning {

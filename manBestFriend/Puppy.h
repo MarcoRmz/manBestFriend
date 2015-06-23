@@ -10,4 +10,7 @@
 
 @interface Puppy : Dog
 
+-(void)givePuppyEyes;
+-(void)bark;
+
 @end

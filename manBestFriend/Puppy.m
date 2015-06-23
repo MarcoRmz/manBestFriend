@@ -10,4 +10,13 @@
 
 @implementation Puppy
 
+-(void)givePuppyEyes {
+    NSLog(@":(");
+}
+
+-(void)bark {
+    NSLog(@"whimper whimper");
+    [self givePuppyEyes];
+}
+
 @end
