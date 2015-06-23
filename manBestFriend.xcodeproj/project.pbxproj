@@ -11,6 +11,7 @@
 		A91929501B389EDE00405864 /* Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = A919294D1B389EDE00405864 /* Circle.png */; };
 		A91929511B389EDE00405864 /* SanFran.png in Resources */ = {isa = PBXBuildFile; fileRef = A919294E1B389EDE00405864 /* SanFran.png */; };
 		A91929521B389EDE00405864 /* Tigres.png in Resources */ = {isa = PBXBuildFile; fileRef = A919294F1B389EDE00405864 /* Tigres.png */; };
+		A992B83B1B38DD6800AC0DC0 /* Puppy.m in Sources */ = {isa = PBXBuildFile; fileRef = A992B83A1B38DD6800AC0DC0 /* Puppy.m */; };
 		A9D10EAF1A60B1A0000AA687 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D10EAE1A60B1A0000AA687 /* main.m */; };
 		A9D10EB21A60B1A0000AA687 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D10EB11A60B1A0000AA687 /* AppDelegate.m */; };
 		A9D10EB51A60B1A0000AA687 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D10EB41A60B1A0000AA687 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 		A919294D1B389EDE00405864 /* Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle.png; sourceTree = "<group>"; };
 		A919294E1B389EDE00405864 /* SanFran.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SanFran.png; sourceTree = "<group>"; };
 		A919294F1B389EDE00405864 /* Tigres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tigres.png; sourceTree = "<group>"; };
+		A992B8391B38DD6800AC0DC0 /* Puppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Puppy.h; sourceTree = "<group>"; };
+		A992B83A1B38DD6800AC0DC0 /* Puppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Puppy.m; sourceTree = "<group>"; };
 		A9D10EA91A60B1A0000AA687 /* manBestFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = manBestFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D10EAD1A60B1A0000AA687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9D10EAE1A60B1A0000AA687 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -99,6 +102,8 @@
 				A9D10EB61A60B1A0000AA687 /* Main.storyboard */,
 				A9D10ED21A60B274000AA687 /* Dog.h */,
 				A9D10ED31A60B274000AA687 /* Dog.m */,
+				A992B8391B38DD6800AC0DC0 /* Puppy.h */,
+				A992B83A1B38DD6800AC0DC0 /* Puppy.m */,
 				A9D10EB91A60B1A0000AA687 /* Images.xcassets */,
 				A9D10EBB1A60B1A0000AA687 /* LaunchScreen.xib */,
 				A9D10EAC1A60B1A0000AA687 /* Supporting Files */,
@@ -243,6 +248,7 @@
 				A9D10EB51A60B1A0000AA687 /* ViewController.m in Sources */,
 				A9D10EB21A60B1A0000AA687 /* AppDelegate.m in Sources */,
 				A9D10ED41A60B274000AA687 /* Dog.m in Sources */,
+				A992B83B1B38DD6800AC0DC0 /* Puppy.m in Sources */,
 				A9D10EAF1A60B1A0000AA687 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
