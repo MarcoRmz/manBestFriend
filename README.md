@@ -1,4 +1,4 @@
-# manBestFriend
+Man's Best Friend
 =====
 Udemy iOS tutorial on objects
 
